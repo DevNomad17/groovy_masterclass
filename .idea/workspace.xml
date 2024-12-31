@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2ce3c40-1d97-4e40-9fa7-2140566cc817" name="Changes" comment="groovy basics">
-      <change afterPath="$PROJECT_DIR$/src/AccountsDemo.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionsDemo.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +31,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Groovy.AccountsDemo">
+  <component name="RunManager" selected="Groovy.CollectionsDemo">
     <configuration name="AST_examples" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="groovy_masterclass" />
       <setting name="path" value="file://$PROJECT_DIR$/src/AST_examples.groovy" />
@@ -54,9 +54,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+    <configuration name="CollectionsDemo" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="groovy_masterclass" />
-      <setting name="path" value="file://$PROJECT_DIR$/src/Hello_world.groovy" />
+      <setting name="path" value="file://$PROJECT_DIR$/src/CollectionsDemo.groovy" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
       <setting name="workDir" value="file://$PROJECT_DIR$/src" />
@@ -89,11 +89,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Groovy.CollectionsDemo" />
         <item itemvalue="Groovy.AccountsDemo" />
         <item itemvalue="Groovy.AST_examples" />
         <item itemvalue="Groovy.Tweet" />
         <item itemvalue="Groovy.Twitter" />
-        <item itemvalue="Groovy.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -107,7 +107,8 @@
       <updated>1735303417718</updated>
       <workItem from="1735303419346" duration="1963000" />
       <workItem from="1735481338527" duration="5778000" />
-      <workItem from="1735551083373" duration="1219000" />
+      <workItem from="1735551083373" duration="1978000" />
+      <workItem from="1735650166329" duration="2588000" />
     </task>
     <task id="LOCAL-00001" summary="new groovy project">
       <created>1735303764130</created>
@@ -130,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1735492847877</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="groovy basics">
+      <created>1735564277174</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1735564277174</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
