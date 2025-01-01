@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2ce3c40-1d97-4e40-9fa7-2140566cc817" name="Changes" comment="groovy basics">
-      <change afterPath="$PROJECT_DIR$/src/CollectionsDemo.groovy" afterDir="false" />
+    <list default="true" id="c2ce3c40-1d97-4e40-9fa7-2140566cc817" name="Changes" comment="groovy collections">
+      <change afterPath="$PROJECT_DIR$/src/ClosuresDemo.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +31,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Groovy.CollectionsDemo">
+  <component name="RunManager" selected="Groovy.ClosuresDemo">
     <configuration name="AST_examples" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="groovy_masterclass" />
       <setting name="path" value="file://$PROJECT_DIR$/src/AST_examples.groovy" />
@@ -46,6 +46,17 @@
     <configuration name="AccountsDemo" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="groovy_masterclass" />
       <setting name="path" value="file://$PROJECT_DIR$/src/AccountsDemo.groovy" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$/src" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClosuresDemo" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+      <module name="groovy_masterclass" />
+      <setting name="path" value="file://$PROJECT_DIR$/src/ClosuresDemo.groovy" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
       <setting name="workDir" value="file://$PROJECT_DIR$/src" />
@@ -76,24 +87,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Twitter" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
-      <module name="groovy_masterclass" />
-      <setting name="path" value="file://$PROJECT_DIR$/src/Twitter.groovy" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="file://$PROJECT_DIR$/src" />
-      <setting name="debug" value="false" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Groovy.ClosuresDemo" />
         <item itemvalue="Groovy.CollectionsDemo" />
         <item itemvalue="Groovy.AccountsDemo" />
         <item itemvalue="Groovy.AST_examples" />
         <item itemvalue="Groovy.Tweet" />
-        <item itemvalue="Groovy.Twitter" />
       </list>
     </recent_temporary>
   </component>
@@ -108,7 +108,8 @@
       <workItem from="1735303419346" duration="1963000" />
       <workItem from="1735481338527" duration="5778000" />
       <workItem from="1735551083373" duration="1978000" />
-      <workItem from="1735650166329" duration="2588000" />
+      <workItem from="1735650166329" duration="3290000" />
+      <workItem from="1735738535132" duration="4359000" />
     </task>
     <task id="LOCAL-00001" summary="new groovy project">
       <created>1735303764130</created>
@@ -138,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1735564277174</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="groovy collections">
+      <created>1735658875304</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1735658875304</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +166,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new groovy project" />
     <MESSAGE value="groovy basics" />
-    <option name="LAST_COMMIT_MESSAGE" value="groovy basics" />
+    <MESSAGE value="groovy collections" />
+    <option name="LAST_COMMIT_MESSAGE" value="groovy collections" />
   </component>
 </project>
