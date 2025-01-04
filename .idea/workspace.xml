@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2ce3c40-1d97-4e40-9fa7-2140566cc817" name="Changes" comment="groovy collections">
-      <change afterPath="$PROJECT_DIR$/src/ClosuresDemo.groovy" afterDir="false" />
+    <list default="true" id="c2ce3c40-1d97-4e40-9fa7-2140566cc817" name="Changes" comment="groovy closures">
+      <change afterPath="$PROJECT_DIR$/src/ControlStructuresDemo.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,14 +27,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
-}</component>
-  <component name="RunManager" selected="Groovy.ClosuresDemo">
+}]]></component>
+  <component name="RunManager" selected="Groovy.ControlStructuresDemo">
     <configuration name="AST_examples" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="groovy_masterclass" />
       <setting name="path" value="file://$PROJECT_DIR$/src/AST_examples.groovy" />
@@ -76,9 +80,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tweet" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+    <configuration name="ControlStructuresDemo" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="groovy_masterclass" />
-      <setting name="path" value="file://$PROJECT_DIR$/src/Tweet.groovy" />
+      <setting name="path" value="file://$PROJECT_DIR$/src/ControlStructuresDemo.groovy" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
       <setting name="workDir" value="file://$PROJECT_DIR$/src" />
@@ -89,11 +93,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Groovy.ControlStructuresDemo" />
         <item itemvalue="Groovy.ClosuresDemo" />
         <item itemvalue="Groovy.CollectionsDemo" />
         <item itemvalue="Groovy.AccountsDemo" />
         <item itemvalue="Groovy.AST_examples" />
-        <item itemvalue="Groovy.Tweet" />
       </list>
     </recent_temporary>
   </component>
@@ -109,7 +113,9 @@
       <workItem from="1735481338527" duration="5778000" />
       <workItem from="1735551083373" duration="1978000" />
       <workItem from="1735650166329" duration="3290000" />
-      <workItem from="1735738535132" duration="4359000" />
+      <workItem from="1735738535132" duration="4731000" />
+      <workItem from="1735817438879" duration="10000" />
+      <workItem from="1735986095894" duration="1073000" />
     </task>
     <task id="LOCAL-00001" summary="new groovy project">
       <created>1735303764130</created>
@@ -146,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1735658875304</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="groovy closures">
+      <created>1735746840174</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1735746840174</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +180,7 @@
     <MESSAGE value="new groovy project" />
     <MESSAGE value="groovy basics" />
     <MESSAGE value="groovy collections" />
-    <option name="LAST_COMMIT_MESSAGE" value="groovy collections" />
+    <MESSAGE value="groovy closures" />
+    <option name="LAST_COMMIT_MESSAGE" value="groovy closures" />
   </component>
 </project>
