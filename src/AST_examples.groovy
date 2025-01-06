@@ -1,4 +1,5 @@
 import groovy.transform.CompileStatic
+import groovy.transform.NullCheck
 import groovy.transform.Sortable
 import groovy.transform.ToString
 
@@ -38,3 +39,10 @@ def sortedByName = people.sort(Person.comparatorByName())
 println sortedByName // Output: [Person(name:Filipko, age:20), Person(name:Mariška, age:25), Person(name:Ondrej, age:30)]
 
 
+@NullCheck
+String longerOf(String first, String second) {
+    first.size() >= second.size() ? first : second
+}
+
+assert longerOf('cat', 'canary') == 'canary'
+def ex = longerOf('cat', null)
