@@ -4,9 +4,9 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2ce3c40-1d97-4e40-9fa7-2140566cc817" name="Changes" comment="groovy runtime metaprogramming">
+    <list default="true" id="c2ce3c40-1d97-4e40-9fa7-2140566cc817" name="Changes" comment="nullCheck transformation">
+      <change afterPath="$PROJECT_DIR$/src/BuildersDemo.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AST_examples.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/AST_examples.groovy" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +35,7 @@
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Groovy.AST_examples">
+  <component name="RunManager" selected="Groovy.BuildersDemo">
     <configuration name="AST_examples" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="groovy_masterclass" />
       <setting name="path" value="file://$PROJECT_DIR$/src/AST_examples.groovy" />
@@ -47,9 +47,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClosuresDemo" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+    <configuration name="BuildersDemo" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="groovy_masterclass" />
-      <setting name="path" value="file://$PROJECT_DIR$/src/ClosuresDemo.groovy" />
+      <setting name="path" value="file://$PROJECT_DIR$/src/BuildersDemo.groovy" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
       <setting name="workDir" value="file://$PROJECT_DIR$/src" />
@@ -58,9 +58,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollectionsDemo" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+    <configuration name="ClosuresDemo" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="groovy_masterclass" />
-      <setting name="path" value="file://$PROJECT_DIR$/src/CollectionsDemo.groovy" />
+      <setting name="path" value="file://$PROJECT_DIR$/src/ClosuresDemo.groovy" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
       <setting name="workDir" value="file://$PROJECT_DIR$/src" />
@@ -93,11 +93,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Groovy.BuildersDemo" />
         <item itemvalue="Groovy.AST_examples" />
         <item itemvalue="Groovy.RuntimeMetaprogrammingDemo" />
         <item itemvalue="Groovy.ControlStructuresDemo" />
         <item itemvalue="Groovy.ClosuresDemo" />
-        <item itemvalue="Groovy.CollectionsDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -118,7 +118,9 @@
       <workItem from="1735986095894" duration="1268000" />
       <workItem from="1736020482967" duration="614000" />
       <workItem from="1736095713567" duration="6704000" />
-      <workItem from="1736182475353" duration="444000" />
+      <workItem from="1736182475353" duration="1405000" />
+      <workItem from="1736252889505" duration="244000" />
+      <workItem from="1736281428237" duration="2562000" />
     </task>
     <task id="LOCAL-00001" summary="new groovy project">
       <created>1735303764130</created>
@@ -176,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1736102984656</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="nullCheck transformation">
+      <created>1736183166673</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1736183166673</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +209,7 @@
     <MESSAGE value="groovy closures" />
     <MESSAGE value="groovy control structures" />
     <MESSAGE value="groovy runtime metaprogramming" />
-    <option name="LAST_COMMIT_MESSAGE" value="groovy runtime metaprogramming" />
+    <MESSAGE value="nullCheck transformation" />
+    <option name="LAST_COMMIT_MESSAGE" value="nullCheck transformation" />
   </component>
 </project>
