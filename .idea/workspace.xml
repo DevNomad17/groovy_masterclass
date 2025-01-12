@@ -3,10 +3,14 @@
   <component name="AnalysisUIOptions">
     <option name="SCOPE_TYPE" value="3" />
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2ce3c40-1d97-4e40-9fa7-2140566cc817" name="Changes" comment="nullCheck transformation">
-      <change afterPath="$PROJECT_DIR$/src/BuildersDemo.groovy" afterDir="false" />
+    <list default="true" id="c2ce3c40-1d97-4e40-9fa7-2140566cc817" name="Changes" comment="xml builder">
+      <change afterPath="$PROJECT_DIR$/src/RESTServicesDemo.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/groovy_masterclass.iml" beforeDir="false" afterPath="$PROJECT_DIR$/groovy_masterclass.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,15 +31,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/ondre/Downloads/commons-lang-2.4.jar",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "configurable.group.build"
   }
-}</component>
-  <component name="RunManager" selected="Groovy.BuildersDemo">
+}]]></component>
+  <component name="RunManager" selected="Groovy.RESTServicesDemo (1)">
     <configuration name="AST_examples" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="groovy_masterclass" />
       <setting name="path" value="file://$PROJECT_DIR$/src/AST_examples.groovy" />
@@ -58,9 +67,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClosuresDemo" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+    <configuration name="RESTDebugDemo" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="groovy_masterclass" />
-      <setting name="path" value="file://$PROJECT_DIR$/src/ClosuresDemo.groovy" />
+      <setting name="path" value="file://$PROJECT_DIR$/src/RESTDebugDemo.groovy" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
       <setting name="workDir" value="file://$PROJECT_DIR$/src" />
@@ -69,9 +78,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ControlStructuresDemo" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+    <configuration name="RESTServicesDemo (1)" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="groovy_masterclass" />
-      <setting name="path" value="file://$PROJECT_DIR$/src/ControlStructuresDemo.groovy" />
+      <setting name="path" value="file://$PROJECT_DIR$/src/RESTServicesDemo.groovy" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
       <setting name="workDir" value="file://$PROJECT_DIR$/src" />
@@ -80,9 +89,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RuntimeMetaprogrammingDemo" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+    <configuration name="RESTServicesDemo" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="groovy_masterclass" />
-      <setting name="path" value="file://$PROJECT_DIR$/src/RuntimeMetaprogrammingDemo.groovy" />
+      <setting name="path" value="file://$PROJECT_DIR$/src/RESTServicesDemo.groovy" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
       <setting name="workDir" value="file://$PROJECT_DIR$/src" />
@@ -93,11 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Groovy.RESTServicesDemo (1)" />
+        <item itemvalue="Groovy.RESTDebugDemo" />
+        <item itemvalue="Groovy.RESTServicesDemo" />
         <item itemvalue="Groovy.BuildersDemo" />
         <item itemvalue="Groovy.AST_examples" />
-        <item itemvalue="Groovy.RuntimeMetaprogrammingDemo" />
-        <item itemvalue="Groovy.ControlStructuresDemo" />
-        <item itemvalue="Groovy.ClosuresDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -120,7 +129,10 @@
       <workItem from="1736095713567" duration="6704000" />
       <workItem from="1736182475353" duration="1405000" />
       <workItem from="1736252889505" duration="244000" />
-      <workItem from="1736281428237" duration="2562000" />
+      <workItem from="1736281428237" duration="3004000" />
+      <workItem from="1736326418913" duration="599000" />
+      <workItem from="1736675011048" duration="1830000" />
+      <workItem from="1736678044455" duration="3245000" />
     </task>
     <task id="LOCAL-00001" summary="new groovy project">
       <created>1735303764130</created>
@@ -185,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1736183166673</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="xml builder">
+      <created>1736284440135</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1736284440135</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +229,7 @@
     <MESSAGE value="groovy control structures" />
     <MESSAGE value="groovy runtime metaprogramming" />
     <MESSAGE value="nullCheck transformation" />
-    <option name="LAST_COMMIT_MESSAGE" value="nullCheck transformation" />
+    <MESSAGE value="xml builder" />
+    <option name="LAST_COMMIT_MESSAGE" value="xml builder" />
   </component>
 </project>
