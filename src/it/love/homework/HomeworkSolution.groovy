@@ -75,10 +75,27 @@ def convertMargin = { String margin ->
 // Convert all margins to numeric form
 def numericMargins = margins.collectEntries { k, v -> [k, convertMargin(v)] }
 
-def findCategoryAndMargin = { double amount ->
-    def cat = sortedCategories.find {
-        (it[1] <= amount) && (it[2] == null || amount < it[2])
+
+def binarySearchForCategory = { double amount ->
+    def start = 0
+    def end = sortedCategories.size() - 1
+
+    while (start <= end) {
+        def mid = (start + end) / 2 as int
+        def cat = sortedCategories[mid]
+        if (cat[1] <= amount && (cat[2] == null || amount < cat[2])) {
+            return cat
+        } else if (cat[1] > amount) {
+            end = mid - 1
+        } else {
+            start = mid + 1
+        }
     }
+    return null // No matching category found
+}
+
+def findCategoryAndMargin = { double amount ->
+    def cat = binarySearchForCategory(amount)
 
     if (cat) {
         return numericMargins[cat[0]] // Return just the margin value

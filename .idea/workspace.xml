@@ -7,9 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2ce3c40-1d97-4e40-9fa7-2140566cc817" name="Changes" comment="rest clients">
-      <change afterPath="$PROJECT_DIR$/src/it/love/homework/Main.groovy" afterDir="false" />
+    <list default="true" id="c2ce3c40-1d97-4e40-9fa7-2140566cc817" name="Changes" comment="homework loveit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/love/homework/HomeworkSolution.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/love/homework/HomeworkSolution.groovy" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,13 +43,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;
   }
 }</component>
-  <component name="RunManager" selected="Groovy.Main">
-    <configuration name="BuildersDemo" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+  <component name="RunManager" selected="Groovy.HomeworkSolution">
+    <configuration name="HomeworkSolution" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="groovy_masterclass" />
-      <setting name="path" value="file://$PROJECT_DIR$/src/BuildersDemo.groovy" />
+      <setting name="path" value="file://$PROJECT_DIR$/src/it/love/homework/HomeworkSolution.groovy" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
-      <setting name="workDir" value="file://$PROJECT_DIR$/src" />
+      <setting name="workDir" value="file://$PROJECT_DIR$/src/it/love/homework" />
       <setting name="debug" value="false" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,11 +101,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Groovy.HomeworkSolution" />
         <item itemvalue="Groovy.Main" />
         <item itemvalue="Groovy.RESTServicesDemo (1)" />
         <item itemvalue="Groovy.RESTDebugDemo" />
         <item itemvalue="Groovy.RESTServicesDemo" />
-        <item itemvalue="Groovy.BuildersDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +133,9 @@
       <workItem from="1736675011048" duration="1830000" />
       <workItem from="1736678044455" duration="3467000" />
       <workItem from="1736708575954" duration="98000" />
-      <workItem from="1737193397009" duration="6879000" />
+      <workItem from="1737193397009" duration="7715000" />
+      <workItem from="1737209573421" duration="629000" />
+      <workItem from="1737300703708" duration="2394000" />
     </task>
     <task id="LOCAL-00001" summary="new groovy project">
       <created>1735303764130</created>
@@ -212,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1736684014650</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="homework loveit">
+      <created>1737200831500</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1737200831500</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,6 +248,18 @@
     <MESSAGE value="nullCheck transformation" />
     <MESSAGE value="xml builder" />
     <MESSAGE value="rest clients" />
-    <option name="LAST_COMMIT_MESSAGE" value="rest clients" />
+    <MESSAGE value="homework loveit" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework loveit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/it/love/homework/HomeworkSolution.groovy</url>
+          <line>86</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
